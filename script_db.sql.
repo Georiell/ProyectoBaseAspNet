@@ -1,0 +1,19 @@
+-- Script de base de datos para el Proyecto ASP.NET Core MVC + Web API
+
+CREATE DATABASE ProyectoBaseDB;
+GO
+
+USE ProyectoBaseDB;
+GO
+
+-- Crear tabla Producto
+CREATE TABLE Producto (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Nombre NVARCHAR(100) NOT NULL,
+    Precio DECIMAL(10, 2) NOT NULL
+);
+GO
+
+-- Insertar productos de ejemplo
+INSERT INTO Producto (Nombre, Precio) VALUES ('Mouse', 25.00);
+INSERT INTO Producto (Nombre, Precio) VALUES ('Teclado', 40.00);
