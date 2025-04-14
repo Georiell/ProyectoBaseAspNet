@@ -24,8 +24,15 @@ appsettings.json ├── Program.cs
    ```bash
    git clone https://github.com/Georiell/ProyectoBaseAspNet.git
 
-   ## ✨ Autor
+  
+2. Crear la base de datos en SQL Server:
 
+   Ejecutar el archivo `script_db.sql` en SQL Server Management Studio para crear la base de datos `ProyectoBaseDB` y la tabla `Producto` con datos de ejemplo.
+
+
+ 3. Ejecutar el script_db.sql en SQL Server Management Studio para crear la base de datos.
+    
+ ## ✨ Autor
 **Jorge Ricardo**  
 📧 jorgericardoberrosperua@gmail.com  
 💼 GitHub: [@Georiell](https://github.com/Georiell)
